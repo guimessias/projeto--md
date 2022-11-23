@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>projeto</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
     <header>
         <h1>meu site</h1>
-        <menu>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
             <ul>
                 <li><a href="#">opção 1</a></li>
                 <li><a href="#">opcão 2</a></li>
@@ -23,66 +25,50 @@
     <main>
         <article>
            <h2>testando media queries</h2>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum 
-                doloremque numqLorem iLorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum  <br>
-                doloremque numquam molestiae, mollitia sint animi et quibusdam doloribus aut expedita,  <br>
-                odit pariatur hic autem dolore dolorem veritatis ex at exercitationem!Lorem ipsum dolor  <br>
-                doloremque numquam molestiae, mollitia sint animi et quibusdam doloribus aut expedita,  <br>
-                odit pariatur hic autem dolore dolorem veritatis ex at exercitationem!Lorem ipsum dolo  <br>
-                sit amet consectetur adipisicing elit. Voluptatum <br>
-                doloremque numquam molestiae, mollitia sint animi et quibusdam doloribus aut expedita,  <br>
-                odit pariatur hic autem dolore dolorem veritatis ex at exercitationem!Lorem ipsum dolor <br>
-                    sit amet consectetur adipisicing elit. Voluptatum 
-                doloremque numquam molestiae, mollitia sint animi et quibusdam doloribus aut expedita,  <br>
-                    odit pariatur hic autem dolore dolorem veritatis ex at exercitationem!Lorem ipsum dolor <br>
-                    sit amet consectetur adipisicing elit. Voluptatum 
-                    doloremque numquam molestiae, mollitia sint animi et quibusdam doloribus aut expedita, <br> 
-                    odit pariatur hic autem dolore dolorem veritatis ex at exercitationem!psum dolor sit <br>
-                    amet consectetur adipisicing elit. Voluptatum 
-                doloremque numquam molestiae, mollitia sint animi et quibusdam doloribus aut expedita,  <br>
-                odit pariatur hic autem dolore dolorem veritatis ex at exercitationem!uam molestiae,  <br>
-                mollitia sint animi et quibusdam doloribus aut expedita, <br>
-                odit pariatur hic autem dolore dolorem veritatis ex at exercitationem!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum 
-                    doloremque numqLorem iLorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum  <br>
-                    doloremque numquam molestiae, mollitia sint animi et quibusdam doloribus aut expedita,  <br>
-                    odit pariatur hic autem dolore dolorem veritatis ex at exercitationem!Lorem ipsum dolor <br> 
-                    doloremque numquam molestiae, mollitia sint animi et quibusdam doloribus aut expedita,  <br>
-                    odit pariatur hic autem dolore dolorem veritatis ex at exercitationem!Lorem ipsum dolo  <br>
-                    sit amet consectetur adipisicing elit. Voluptatum  <br>
-                    odit pariatur hic autem dolore dolorem veritatis ex at exercitationem!Lorem ipsum dolor <br>
-                        sit amet consectetur adipisicing elit. Voluptatum 
-                    doloremque numquam molestiae, mollitia sint animi et quibusdam doloribus aut expedita, <br> 
-                        odit pariatur hic autem dolore dolorem veritatis ex at exercitationem!Lorem ipsum dolor <br>
-                        sit amet consectetur adipisicing elit. Voluptatum 
-                        doloremque numquam molestiae, mollitia sint animi et quibusdam doloribus aut expedita, <br> 
-                        odit pariatur hic autem dolore dolorem veritatis ex at exercitationem!psum dolor sit <br>
-                        amet consectetur adipisicing elit. Voluptatum  <br>
-                    doloremque numquam molestiae, mollitia sint animi et quibusdam doloribus aut expedita,  <br>
-                    odit pariatur hic autem dolore dolorem veritatis ex at exercitationem!uam molestiae, <br> 
-                    mollitia sint animi et quibusdam doloribus aut expedita, 
-                    odit pariatur hic autem dolore dolorem veritatis ex at exercitationem!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum  <br>
-                        doloremque numqLorem iLorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum  <br>
-                        doloremque numquam molestiae, mollitia sint animi et quibusdam doloribus aut expedita,  <br>
-                        odit pariatur hic autem dolore dolorem veritatis ex at exercitationem!Lorem ipsum dolor sitamet consectetur adipisicing elit. Voluptatum  <br>
-                        doloremque numquam molestiae, mollitia sint animi et quibusdam doloribus aut expedita,  <br>
-                        odit pariatur hic autem dolore dolorem veritatis ex at exercitationem!Lorem ipsum dolo  <br>
-                        sit amet consectetur adipisicing elit. Voluptatum 
-                        doloremque numquam molestiae, mollitia sint animi et quibusdam doloribus aut expedita,  <br>
-                        odit pariatur hic autem dolore dolorem veritatis ex at exercitationem!Lorem ipsum dolor <br>
-                            sit amet consectetur adipisicing elit. Voluptatum  <br>
-                        doloremque numquam molestiae, mollitia sint animi et quibusdam doloribus aut expedita,  <br>
-                            odit pariatur hic autem dolore dolorem veritatis ex at exercitationem!Lorem ipsum dolor <br>
-                            sit amet consectetur adipisicing elit. Voluptatum  <br>
-                            doloremque numquam molestiae, mollitia sint animi et quibusdam doloribus aut expedita,  <br>
-                            odit pariatur hic autem dolore dolorem veritatis ex at exercitationem!psum dolor sit <br>
-                            amet consectetur adipisicing elit. Voluptatum  <br>
-                        doloremque numquam molestiae, mollitia sint animi et quibusdam doloribus aut expedita,  <br>
-                        odit pariatur hic autem dolore dolorem veritatis ex at exercitationem!uam molestiae,  <br>
-                        mollitia sint animi et quibusdam doloribus aut expedita,  <br>
-                        odit pariatur hic autem dolore dolorem veritatis ex at exercitationem!</p>
+           <p>Deputados estaduais pressionaram o presidente da Assembleia Legislativa Eduardo Botelho (União) para que ele coloque a chamada “PEC dos Aposentados” em votação na sessão ordinária desta quarta-feira (23). Os parlamentares querem pôr fim a essa discussão, uma vez que não acreditam que terá uma contraproposta do governo do Estado quanto ao assunto.
+
+            Eles, inclusive, teriam garantido ao chefe do Legislativo que teriam mais de 13 assinaturas para garantir que a matéria fosse inclusa na pauta de votação de hoje.
+            
+            Botelho, contudo, garante que irá aguardar até o dia 30 deste mês, prazo estipulado para que o poder Executivo se manifeste sobre o tema.
+            
+            “Vários deputados queriam que eu colocasse para votar hoje, mas argumentei que nós já fizemos um compromisso de esperar até o dia 30. Eu pedi o entendimento deles, e eles inclusive disseram que tinha mais de 13 deputados dispostos para assinar o requerimento para ser votado”, enfatizou Botelho.
+            
+            A discussão se dá em torno da Proposta de Emenda à Constituição (PEC), apresentada por lideranças partidárias, a qual visa isentar de taxação os aposentados e pensionistas do estado com proventos que não ultrapassam o teto do regime geral, que é de R$ 7.087,22.7. 
+            
+            “Precisamos sentar com o governador. Foi o compromisso que nós fizemos de aguardar até o dia 30 para buscar o entendimento com o governo sobre essa PEC. Nós estamos tentando isso, se não der nós vamos honrar o compromisso com os aposentados e colocá-la para votar”, finalizou.
+            Clique AQUI, entre no grupo de WhatsApp do Leiagora e receba notícias em tempo real
+            
+            
+             
+            NOTÍCIAS RELACIONADAS
+            Max é preferido de Mendes, mas enfrenta resistência na AL para disputar presidência
+            23/11/2022 às 12:20
+            
+            Com resultado negativo da consulta ao STF, Botelho não será candidato à reeleição na Mesa
+            23/11/2022 às 07:20
+            
+            Botelho reúne deputados nesta terça para tratar de Mesa Diretora
+            22/11/2022 às 07:20
+            
+            Janaína critica dobradinha de Botelho e Max no comando da AL e defende mudança
+            19/11/2022 às 15:02
+            
+            Deputado propõe orçamento de R$ 30 milhões para SES adquirir medicamentos de canabidiol
+            17/11/2022 às 14:29
+            </p>
+            
         </article>
     </main>
+    <script>
+        function clickMenu(){
+            if( itens.style.display=='block'){
+                itens.style.display= 'none'
+            }else{
+                itens.style.display= 'block'
+            }
+
+
+        }
+    </script>
 </body>
 </html>
